@@ -1,11 +1,11 @@
 def my_collect(array)
-	collect = []
+	collected = []
   i = 0
 	while i < array.length
 		collect.push( yield(array[i]) )
 		i += 1
 	end
-	return collect
+	return collected
 end
 
 
